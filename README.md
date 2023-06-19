@@ -8,12 +8,12 @@ A seguir, será apresentada uma documentação detalhada de cada classe, incluin
 
 A classe `Empresa` representa uma entidade que contém informações sobre uma empresa. Ela possui os seguintes atributos:
 
-- `id` (int): Identificador único da empresa.
-- `nome` (String): Nome da empresa.
-- `cnpj` (String): CNPJ da empresa.
-- `quantidadeFuncionarios` (int): Quantidade de funcionários da empresa.
-- `nomeGerente` (String): Nome do gerente responsável pela empresa.
-- `areaAtuacao` (String): Área de atuação da empresa.
+- `id` `(int)`: Identificador único da empresa.
+- `nome` `(String)`: Nome da empresa.
+- `cnpj` `(String)`: CNPJ da empresa.
+- `quantidadeFuncionarios` `(int)`: Quantidade de funcionários da empresa.
+- `nomeGerente` `(String)`: Nome do gerente responsável pela empresa.
+- `areaAtuacao` `(String)`: Área de atuação da empresa.
 
 A classe `Empresa` possui um construtor para inicializar os atributos e métodos getters e setters para acessar e modificar os valores dos atributos.
 
