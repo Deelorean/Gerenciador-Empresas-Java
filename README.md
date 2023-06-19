@@ -71,16 +71,16 @@ CREATE TABLE **empresa** (
 
 O programa permite as seguintes interações com as empresas:
 
-1. Adicionar uma nova empresa:
+`1. Adicionar uma nova empresa:`
    - O usuário pode adicionar uma nova empresa fornecendo todas as informações necessárias, como nome, CNPJ, quantidade de funcionários, nome do gerente e área de atuação.
 
-2. Remover uma empresa existente:
+`2. Remover uma empresa existente:`
    - O usuário pode remover uma empresa informando o ID da empresa que deseja remover. Essa ação resultará na exclusão permanente dos dados da empresa no banco de dados.
 
-3. Listar todas as empresas:
+`3. Listar todas as empresas:`
    - O usuário pode listar todas as empresas cadastradas no banco de dados. Essa ação exibirá na tela as informações de todas as empresas, como nome, CNPJ, quantidade de funcionários, nome do gerente e área de atuação.
 
-4. Atualizar os dados de uma empresa:
+`4. Atualizar os dados de uma empresa:`
    - O usuário pode atualizar os dados de uma empresa existente fornecendo o ID da empresa e as novas informações. Isso permitirá a modificação dos dados da empresa no banco de dados.
 
 Ao executar o programa, será exibido um menu principal com as opções disponíveis. O usuário poderá escolher uma das opções digitando o número correspondente e pressionando Enter. O programa irá executar a ação desejada e, em seguida, retornará ao menu principal para que o usuário possa realizar outras operações.
