@@ -52,7 +52,7 @@ Métodos principais da classe `MenuPrincipal`:
 - `listarEmpresas()`: Lista todas as empresas cadastradas.
 - `atualizarEmpresa()`: Permite ao usuário atualizar os dados de uma empresa existente.
 
-## Banco de dados
+## Modelo físico
 
 O banco de dados relacional utilizado no código foi criado através do MySQL e hospedado no [PlanetScale](https://app.planetscale.com/). Os dados para conexão não serão informados devido ao PlanetScale ter uma automação que automaticamente derruba a conexão caso seja detectada as credenciais em algum repositório no GitHub.
 
@@ -66,6 +66,32 @@ CREATE TABLE **empresa** (
   **nome_gerente** `VARCHAR(255)` NOT NULL,  
   **area_atuacao** `VARCHAR(255)` NOT NULL  
 );
+
+## Modelo lógico
+
+<div align="center">
+
+ <img src="https://raw.githubusercontent.com/Deelorean/ProjetoA3-Programacao-Modelagem-FPB/main/Arquivos/Modelo%20L%C3%B3gico.png" width="1000" />
+
+</div>
+
+## Modelo conceitual
+
+<div align="center">
+
+ <img src="https://raw.githubusercontent.com/Deelorean/ProjetoA3-Programacao-Modelagem-FPB/main/Arquivos/Modelo%20Conceitual.png" width="500" />
+
+ </div>
+
+## Dicionário de dados
+
+</div>
+
+<div align="center">
+
+ <img src="https://i.imgur.com/GQQ3wal.png" width="1000" />
+
+</div>
 
 ## Utilização do Programa
 
