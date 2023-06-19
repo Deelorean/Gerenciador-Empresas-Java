@@ -54,7 +54,7 @@ Métodos principais da classe `MenuPrincipal`:
 
 ## Modelo físico
 
-O banco de dados relacional utilizado no código foi criado através do MySQL e hospedado no [PlanetScale](https://app.planetscale.com/). Os dados para conexão não serão informados devido ao PlanetScale ter uma automação que automaticamente derruba a conexão caso seja detectada as credenciais em algum repositório no GitHub.
+O banco de dados relacional utilizado no código foi criado através do MySQL e hospedado no [PlanetScale](https://app.planetscale.com/). Os dados para conexão não serão informados devido ao PlanetScale ter uma automação que derruba a conexão caso seja detectada as credenciais em algum repositório no GitHub.
 
 CREATE DATABASE **PROJETOA3**;
 
