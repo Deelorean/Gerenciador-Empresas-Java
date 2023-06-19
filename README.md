@@ -23,7 +23,7 @@ Métodos principais da classe `Empresa`:
 
 ## Classe EmpresaDAO
 
-A classe `EmpresaDAO` é responsável pela comunicação com o banco de dados e contém os métodos para adicionar, remover, listar e atualizar empresas. A conexão com o banco de dados é estabelecida usando o driver JDBC e uma conexão MySQL.
+A classe `EmpresaDAO` é responsável pela comunicação com o banco de dados e contém os métodos para adicionar, remover, listar e atualizar empresas. A conexão com o banco de dados é estabelecida usando o driver JDBC Maven e uma conexão MySQL.
 
 A classe `EmpresaDAO` possui os seguintes atributos estáticos para configuração do banco de dados:
 
