@@ -52,6 +52,21 @@ Métodos principais da classe `MenuPrincipal`:
 - `listarEmpresas()`: Lista todas as empresas cadastradas.
 - `atualizarEmpresa()`: Permite ao usuário atualizar os dados de uma empresa existente.
 
+## Banco de dados
+
+O banco de dados relacional utilizado no código foi criado através do MySQL e hospedado no [PlanetScale](https://app.planetscale.com/).
+
+CREATE DATABASE **PROJETOA3**;
+
+CREATE TABLE **empresa** (  
+**id** `INT` PRIMARY KEY AUTO_INCREMENT,  
+  **nome** `VARCHAR(255)` NOT NULL,  
+  **cnpj** `VARCHAR(14)` NOT NULL,  
+  **quantidade_funcionarios** `INT` NOT NULL,  
+  **nome_gerente** `VARCHAR(255)` NOT NULL,  
+  **area_atuacao** `VARCHAR(255)` NOT NULL  
+);
+
 ## Utilização do Programa
 
 O programa permite as seguintes interações com as empresas:
