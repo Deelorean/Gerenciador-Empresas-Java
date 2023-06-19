@@ -95,6 +95,12 @@ CREATE TABLE **empresa** (
 
 ## Utilização do Programa
 
+<div align="center">
+
+ <img src="https://i.imgur.com/b0o1waL.png" width="100" />
+
+</div>
+
 O programa permite as seguintes interações com as empresas:
 
 `1. Adicionar uma nova empresa:`
