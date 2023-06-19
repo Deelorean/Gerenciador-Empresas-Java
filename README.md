@@ -89,7 +89,7 @@ CREATE TABLE **empresa** (
 
 <div align="center">
 
- <img src="https://i.imgur.com/GQQ3wal.png" width="1000" />
+ <img src="https://i.imgur.com/vtmvbim.png" width="1000" />
 
 </div>
 
