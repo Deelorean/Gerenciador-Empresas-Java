@@ -1,0 +1,10 @@
+CREATE DATABASE PROJETOA3;
+
+CREATE TABLE empresa (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  nome VARCHAR(255) NOT NULL,
+  cnpj VARCHAR(14) NOT NULL,
+  quantidade_funcionarios INT NOT NULL,
+  nome_gerente VARCHAR(255) NOT NULL,
+  area_atuacao VARCHAR(255) NOT NULL
+);
